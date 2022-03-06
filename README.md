@@ -12,18 +12,20 @@
 
 1. Open `TheParkingSpot.pdf` to learn about our Project 
 2. Run `sketch_pSpot.ino` on arduino to start the Project
-3. Install `TheParkingSpot.apk` on an android device to test our Working App (WebApp)
+3. Install `TheParkingSpot.apk` on an android device to test our Working App (_WebApp_)
 4. Snapshots of working model : `WorkingPrototype.jpeg`
+5. Notifier API - `email_notifier.py`
 
 
 ### Version 1.1
 <hr>
 
 **What's working**  
+- Code on RFID and ESP32
 - The Web-app is completely functional
+- Notification API - this will let the app to show the parking location of your vehicle on an email notification
 
 **Expect in later versions**  
-- Notification API to work on live feed from the arduino board, this will let the app to show the parking location of your vehicle  
 - Augmented Reality based navigation, minimal animated interface to show arrows, probably based on Material You theming engine (_Android 12_)
 
 
